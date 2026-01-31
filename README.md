@@ -145,7 +145,9 @@ GET    /api/analytics/category-breakdown/     -> Category-wise analytics
 ## 🧪 Testing APIs with Postman
 A Postman collection is included for easy API testing.
 📁 Path:
+```
 postman/daily_expenses_tracker.postman_collection
+```
 
 # How to use:
 1. Open Postman
