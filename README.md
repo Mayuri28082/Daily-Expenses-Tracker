@@ -132,7 +132,7 @@ PUT     /api/expenses/update/{id}/                                      -> Updat
 DELETE  /api/expenses/delete/{id}/                                      -> Delete expense
 GET     /api/expenses/list/                                             -> List all expenses
 GET     /api/expenses/list/?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD   -> Monthly total expenses
-GET     /api/expenses/list/?category=Food                               -> Category-wise breakdown
+GET     /api/expenses/list/?category={category}                         -> Category-wise breakdown (category=Food, Shopping, Travel,etc)
 ```
 
 # 🗒️ Analytics
